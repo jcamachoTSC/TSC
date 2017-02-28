@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="transition" schemaVersion="9481" VCSUid="ca25d9092086390635210153c8fa2406" name="Get_Length_SearchTerm-V1" path="/QA, Performance, and Production environments/JS">
+    <Body>
+      <Transition>
+        
+        
+        
+        
+        
+        
+        <Script language="JavaScript">//-----------------------------------------------------------------------
+// Javascript to get the fullString property and fullStringLength
+//-----------------------------------------------------------------------
+var DEBUG=0;    // Turn DEBUG on/off
+
+//-----------------------------
+// Get the fullString Property
+//-----------------------------
+var fullString = $prop.value("clip","SearchTerm");
+//$context.result.postMessage($context.result.LEVEL_INFO, "FullString is: " + fullString);
+
+//------------------------------
+// Get the Length of fullString
+//------------------------------
+var fullStringLength = fullString.length;
+//$prop.set("clip","FullStringLength",fullStringLength);     // set clip property fullStringLength
+
+//------------------------------
+// Yuriy:
+// Per Tracktor Supply on 9-23-2015
+// Auto-suggest shouldn't make more than 2 calls
+//------------------------------
+
+fullStringLength = fullStringLength >= 2 ? 2 : fullStringLength;
+
+//---------------------------------
+// Set termLength to = 0 initially
+//---------------------------------
+//var termLength = 1;                                         //set initial termLength to  1
+//$prop.set("clip","SearchTermLength",termLength);
+$prop.set("clip","SearchLoopCounter",fullStringLength);
+</Script>
+      
+      
+      
+      
+      
+      
+      </Transition>
+    </Body>
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>

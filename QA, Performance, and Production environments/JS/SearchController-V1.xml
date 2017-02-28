@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="transition" schemaVersion="9481" VCSUid="aecf058ec26a0f0d269bc3763cb342d2" name="SearchController-V1" path="/QA, Performance, and Production environments/JS">
+    <Body>
+      <Transition>
+        
+        
+        
+        
+        
+        
+        
+        <Script language="JavaScript">var searchPCT = 0;
+searchPCT = $prop.value("Clip","PCT-Search");
+searchCnt = $prop.value("Clip","searchCnt");
+
+$context.result.postMessage($context.result.LEVEL_INFO, "Search PCT", searchPCT);
+if(searchPCT &lt;= 75 &amp; searchCnt &lt; 1) {
+    $context.result.postMessage($context.result.LEVEL_INFO, "searchCnt", $prop.value("Clip","searchCnt"));
+    $prop.set("Clip","searchCnt",1);  //This will stop the loop on the next repeast
+    $context.result.postMessage($context.result.LEVEL_INFO, "searchCnt", $prop.value("Clip","searchCnt"));
+} else {
+    $prop.set("Clip","SearchLoop","false");
+}
+</Script>
+      
+      
+      
+      
+      
+      
+      
+      </Transition>
+    </Body>
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>

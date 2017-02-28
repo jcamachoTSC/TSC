@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="transition" schemaVersion="9481" VCSUid="a8c2780cabc6232b970044008dd2f257" name="Get_Hostname_From_Target-V1" path="/QA, Performance, and Production environments/JS">
+    <Body>
+      <Transition>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <Script language="JavaScript">//-------------------------------------------------------------------------------------------
+// clips to extract the Host name from the target and is used in all clips for the host name
+// in headers and referrer when 1 set of clips is pointed to different environments
+//
+//-------------------------------------------------------------------------------------------
+var host = $context.currentItem.nextItem.target.systemPropertyList.getPropertyValue("HostName");
+$context.result.postMessage($context.result.LEVEL_INFO, "Host is: " + host);
+$prop.set("clip","TestURL",host);
+</Script>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      </Transition>
+    </Body>
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>

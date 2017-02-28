@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="seeddata" schemaVersion="9481" VCSUid="c0099b644c664704a4c6898c04763680" name="LandingPages" path="/QA, Performance, and Production environments/SeedData">
+    <Body>
+      <SeedData xmlns="http://www.soasta.com/services/repository" />
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="encrypted">
+        <Value>false</Value>
+      </Attribute>
+      <Attribute name="type">
+        <Value>internal</Value>
+      </Attribute>
+    </Attributes>
+  </Object>
+  <SeedDataChunk encoding="base64">InVybCIsIm5hbWUiLCJ0eXBlIiwicXVlcnlTdHJpbmciCiIvIiwiSG9tZVBhZ2UiLCIxIiwiIgo=</SeedDataChunk>
+</rp:ObjectSet>

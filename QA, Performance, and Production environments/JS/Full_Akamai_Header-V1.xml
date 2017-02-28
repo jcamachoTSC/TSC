@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="transition" schemaVersion="9481" VCSUid="fae0f87faeba5f776e1b3c0d947c63db" name="Full_Akamai_Header-V1" path="/QA, Performance, and Production environments/JS">
+    <Body>
+      <Transition>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <Script language="JavaScript">var headers = $context.currentPage.dynamicResourceHeaders;
+if (headers == null)
+  headers = "Accept-Encoding: gzip,deflate,sdch";
+else
+  headers += "\nAccept-Encoding: gzip,deflate,sdch";
+  headers += "\nConnection:keep-alive";
+
+// Setting Akamai headers - For triaging
+// headers += "\nPragma: no-cache, akamai-x-cache-on, akamai-x-cache-remote-on,akamai-x-check-cacheable, akamai-x-get-cache-key, akamai-x-get-true-cache-key,akamai-x-get-extracted-values, akamai-x-get-ssl-client-session-id, akamai-x-serial-no, akamai-x-get-request-id";
+
+//  Setting the new header if it was modified
+$context.currentPage.dynamicResourceHeaders = headers;
+</Script>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      </Transition>
+    </Body>
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>

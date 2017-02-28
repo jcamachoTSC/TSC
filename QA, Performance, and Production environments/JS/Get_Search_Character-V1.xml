@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="transition" schemaVersion="9481" VCSUid="cd3049e2094204f5f8778038f78720e2" name="Get_Search_Character-V1" path="/QA, Performance, and Production environments/JS">
+    <Body>
+      <Transition>
+        
+        
+        
+        
+        
+        
+        
+        <Script language="JavaScript">//--------------------------------------------------------------------------------
+// Javascript to get the termLength in substring and provide that value to term
+//--------------------------------------------------------------------------------
+//-----------------------------
+// Get the fullString Property
+//-----------------------------
+var DEBUG = 0;
+var fullString = $prop.value("clip","SearchTerm");
+//$context.result.postMessage($context.result.LEVEL_INFO, "SearchTerm is: " + fullString);
+//$context.result.postMessage($context.result.LEVEL_INFO, "Current Repeat Index is: " + $context.currentPage.repeatIndex);
+var termLength = $context.currentGroup.repeatIndex+1;
+//var termLength = $context.currentPage.repeatIndex+1;
+
+
+var term = fullString.substring(0,termLength);                 // get the first x characters, where x is termLength
+$prop.set("clip","term",term);                              // set clip property term to the substr term
+if(termLength >=3){
+ $prop.set("Clip","SearchLoopCounter", $context.currentGroup.repeatIndex);
+}
+</Script>
+      
+      
+      
+      
+      
+      
+      
+      </Transition>
+    </Body>
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>

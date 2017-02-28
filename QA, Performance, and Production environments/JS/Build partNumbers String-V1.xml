@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="transition" schemaVersion="9481" VCSUid="62c6ff6abd18f7b7d485c79a60ae55c3" name="Build partNumbers String-V1" path="/QA, Performance, and Production environments/JS">
+    <Body>
+      <Transition>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <Script language="JavaScript">var partNumberSKUs = $prop.value('clip','partNumberSKUs');
+var partNumbers = "";
+
+for (i in partNumberSKUs) {
+    
+    partNumbers += partNumberSKUs[i] + ",";
+    
+}
+
+$prop.set('clip','partNumbers',partNumbers);
+</Script>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      </Transition>
+    </Body>
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>

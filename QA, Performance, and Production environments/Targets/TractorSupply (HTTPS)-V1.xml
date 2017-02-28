@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="target" schemaVersion="9481" VCSUid="0166fa3318e05a06d12b9f17b1521a2a" name="TractorSupply (HTTPS)-V1" path="/QA, Performance, and Production environments/Targets">
+    <Body>
+      <Target xmlns="http://www.soasta.com/services/repository">
+        
+        <ServiceDefinition>
+          
+          <WSDL>
+            
+            <wsdl:definitions targetNamespace="https://knowhow-perf.tractorsupply.com" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+              
+              <wsdl:message name="RestRequestMsg" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+              
+              <wsdl:message name="RestResponseMsg" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+              
+              <wsdl:portType name="RestGetPort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                
+                <wsdl:operation name="get" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <wsdl:input message="tns:RestRequestMsg" name="getInput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+                  
+                  <wsdl:output message="tns:RestResponseMsg" name="getOutput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+                
+                </wsdl:operation>
+              
+              </wsdl:portType>
+              
+              <wsdl:portType name="RestPostPort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                
+                <wsdl:operation name="post" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <wsdl:input message="tns:RestRequestMsg" name="postInput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+                  
+                  <wsdl:output message="tns:RestResponseMsg" name="postOutput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+                
+                </wsdl:operation>
+              
+              </wsdl:portType>
+              
+              <wsdl:portType name="RestPutPort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                
+                <wsdl:operation name="put" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <wsdl:input message="tns:RestRequestMsg" name="putInput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+                  
+                  <wsdl:output message="tns:RestResponseMsg" name="putOutput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+                
+                </wsdl:operation>
+              
+              </wsdl:portType>
+              
+              <wsdl:portType name="RestDeletePort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                
+                <wsdl:operation name="delete" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <wsdl:input message="tns:RestRequestMsg" name="deleteInput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+                  
+                  <wsdl:output message="tns:RestResponseMsg" name="deleteOutput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+                
+                </wsdl:operation>
+              
+              </wsdl:portType>
+              
+              <wsdl:portType name="RestHeadPort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                
+                <wsdl:operation name="head" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <wsdl:input message="tns:RestRequestMsg" name="headInput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+                  
+                  <wsdl:output message="tns:RestResponseMsg" name="headOutput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+                
+                </wsdl:operation>
+              
+              </wsdl:portType>
+              
+              <wsdl:portType name="RestOptionsPort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                
+                <wsdl:operation name="options" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <wsdl:input message="tns:RestRequestMsg" name="optionsInput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+                  
+                  <wsdl:output message="tns:RestResponseMsg" name="optionsOutput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+                
+                </wsdl:operation>
+              
+              </wsdl:portType>
+              
+              <wsdl:portType name="RestPatchPort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                
+                <wsdl:operation name="patch" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <wsdl:input message="tns:RestRequestMsg" name="patchInput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+                  
+                  <wsdl:output message="tns:RestResponseMsg" name="patchOutput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+                
+                </wsdl:operation>
+              
+              </wsdl:portType>
+              
+              <wsdl:portType name="RestTracePort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                
+                <wsdl:operation name="trace" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <wsdl:input message="tns:RestRequestMsg" name="traceInput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+                  
+                  <wsdl:output message="tns:RestResponseMsg" name="traceOutput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" />
+                
+                </wsdl:operation>
+              
+              </wsdl:portType>
+              
+              <wsdl:binding name="RestGetBinding" type="tns:RestGetPort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                
+                <http:binding verb="GET" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                
+                <wsdl:operation name="get" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <http:operation location="" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                  
+                  <wsdl:input name="getInput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                    
+                    <mime:content part="restParams" type="application/x-www-form-urlencoded" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                    
+                    <mime:content part="restDocument" type="text/*" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                  
+                  </wsdl:input>
+                  
+                  <wsdl:output name="getOutput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                    
+                    <mime:content type="text/*" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                  
+                  </wsdl:output>
+                
+                </wsdl:operation>
+              
+              </wsdl:binding>
+              
+              <wsdl:binding name="RestPostBinding" type="tns:RestPostPort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                
+                <http:binding verb="POST" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                
+                <wsdl:operation name="post" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <http:operation location="" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                  
+                  <wsdl:input name="postInput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                    
+                    <mime:content part="restParams" type="application/x-www-form-urlencoded" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                    
+                    <mime:content part="restDocument" type="text/*" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                  
+                  </wsdl:input>
+                  
+                  <wsdl:output name="postOutput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                    
+                    <mime:content type="text/*" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                  
+                  </wsdl:output>
+                
+                </wsdl:operation>
+              
+              </wsdl:binding>
+              
+              <wsdl:binding name="RestPutBinding" type="tns:RestPutPort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                
+                <http:binding verb="PUT" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                
+                <wsdl:operation name="put" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <http:operation location="" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                  
+                  <wsdl:input name="putInput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                    
+                    <mime:content part="restParams" type="application/x-www-form-urlencoded" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                    
+                    <mime:content part="restDocument" type="text/*" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                  
+                  </wsdl:input>
+                  
+                  <wsdl:output name="putOutput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                    
+                    <mime:content type="text/*" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                  
+                  </wsdl:output>
+                
+                </wsdl:operation>
+              
+              </wsdl:binding>
+              
+              <wsdl:binding name="RestDeleteBinding" type="tns:RestDeletePort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                
+                <http:binding verb="DELETE" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                
+                <wsdl:operation name="delete" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <http:operation location="" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                  
+                  <wsdl:input name="deleteInput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                    
+                    <mime:content part="restParams" type="application/x-www-form-urlencoded" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                    
+                    <mime:content part="restDocument" type="text/*" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                  
+                  </wsdl:input>
+                  
+                  <wsdl:output name="deleteOutput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                    
+                    <mime:content type="text/*" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                  
+                  </wsdl:output>
+                
+                </wsdl:operation>
+              
+              </wsdl:binding>
+              
+              <wsdl:binding name="RestHeadBinding" type="tns:RestHeadPort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                
+                <http:binding verb="HEAD" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                
+                <wsdl:operation name="head" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <http:operation location="" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                  
+                  <wsdl:input name="headInput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                    
+                    <mime:content part="restParams" type="application/x-www-form-urlencoded" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                    
+                    <mime:content part="restDocument" type="text/*" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                  
+                  </wsdl:input>
+                  
+                  <wsdl:output name="headOutput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                    
+                    <mime:content type="text/*" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                  
+                  </wsdl:output>
+                
+                </wsdl:operation>
+              
+              </wsdl:binding>
+              
+              <wsdl:binding name="RestOptionsBinding" type="tns:RestOptionsPort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                
+                <http:binding verb="OPTIONS" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                
+                <wsdl:operation name="options" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <http:operation location="" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                  
+                  <wsdl:input name="optionsInput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                    
+                    <mime:content part="restParams" type="application/x-www-form-urlencoded" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                    
+                    <mime:content part="restDocument" type="text/*" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                  
+                  </wsdl:input>
+                  
+                  <wsdl:output name="optionsOutput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                    
+                    <mime:content type="text/*" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                  
+                  </wsdl:output>
+                
+                </wsdl:operation>
+              
+              </wsdl:binding>
+              
+              <wsdl:binding name="RestPatchBinding" type="tns:RestPatchPort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                
+                <http:binding verb="PATCH" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                
+                <wsdl:operation name="patch" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <http:operation location="" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                  
+                  <wsdl:input name="patchInput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                    
+                    <mime:content part="restParams" type="application/x-www-form-urlencoded" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                    
+                    <mime:content part="restDocument" type="text/*" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                  
+                  </wsdl:input>
+                  
+                  <wsdl:output name="patchOutput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                    
+                    <mime:content type="text/*" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                  
+                  </wsdl:output>
+                
+                </wsdl:operation>
+              
+              </wsdl:binding>
+              
+              <wsdl:binding name="RestTraceBinding" type="tns:RestTracePort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                
+                <http:binding verb="TRACE" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                
+                <wsdl:operation name="trace" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <http:operation location="" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                  
+                  <wsdl:input name="traceInput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                    
+                    <mime:content part="restParams" type="application/x-www-form-urlencoded" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                    
+                    <mime:content part="restDocument" type="text/*" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                  
+                  </wsdl:input>
+                  
+                  <wsdl:output name="traceOutput" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                    
+                    <mime:content type="text/*" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" />
+                  
+                  </wsdl:output>
+                
+                </wsdl:operation>
+              
+              </wsdl:binding>
+              
+              <wsdl:service name="www.tractorsupply.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                
+                <wsdl:port binding="tns:RestGetBinding" name="RestGetPort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <http:address location="https://knowhow-perf.tractorsupply.com" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                
+                </wsdl:port>
+                
+                <wsdl:port binding="tns:RestPostBinding" name="RestPostPort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <http:address location="https://knowhow-perf.tractorsupply.com" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                
+                </wsdl:port>
+                
+                <wsdl:port binding="tns:RestPutBinding" name="RestPutPort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <http:address location="https://knowhow-perf.tractorsupply.com" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                
+                </wsdl:port>
+                
+                <wsdl:port binding="tns:RestDeleteBinding" name="RestDeletePort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <http:address location="https://knowhow-perf.tractorsupply.com" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                
+                </wsdl:port>
+                
+                <wsdl:port binding="tns:RestHeadBinding" name="RestHeadPort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <http:address location="https://knowhow-perf.tractorsupply.com" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                
+                </wsdl:port>
+                
+                <wsdl:port binding="tns:RestOptionsBinding" name="RestOptionsPort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <http:address location="https://knowhow-perf.tractorsupply.com" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                
+                </wsdl:port>
+                
+                <wsdl:port binding="tns:RestPatchBinding" name="RestPatchPort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <http:address location="https://knowhow-perf.tractorsupply.com" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                
+                </wsdl:port>
+                
+                <wsdl:port binding="tns:RestTraceBinding" name="RestTracePort" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+                  
+                  <http:address location="https://knowhow-perf.tractorsupply.com" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" />
+                
+                </wsdl:port>
+              
+              </wsdl:service>
+            
+            </wsdl:definitions>
+          
+          </WSDL>
+          
+          <Supplements>
+            
+            <Authentication>
+              
+              <Service name="www.tractorsupply.com">
+                
+                <HTTPCredentials authScheme="BASIC" e="true" n="jmorgan" p="zgpt0gEa1DUXBGT7E7kl0A==" />
+              
+              </Service>
+            
+            </Authentication>
+            
+            <MessageInject />
+            
+            <ConnectionOptions>
+              
+              <Service maximumConnectionsPerHost="6" name="www.tractorsupply.com" />
+            
+            </ConnectionOptions>
+            
+            <SSLOptions>
+              
+              <Service name="www.tractorsupply.com" sslv2ClientHelloEnabled="false" sslv3Enabled="true" tlsv1Enabled="true" tlsv1_1Enabled="true" tlsv1_2Enabled="true" />
+            
+            </SSLOptions>
+            
+            <DNSOptions>
+              
+              <Service name="www.tractorsupply.com" serverName="" />
+            
+            </DNSOptions>
+            
+            <MessageSupplements>
+              
+              <Message binding="RestGetBinding" operation="get" service="www.tractorsupply.com">
+                
+                <HTTPCommon>
+                  
+                  <Headers>x-dynaTrace:VU={%% expr: $context.serverName %%};PC={%% expr: $context.locationName %%} - SOASTA;ID={%%Sys-Prop:Composition:StartTimeMillis%%}-{%%Sys-Prop:Track:VUNumber%%}-{%% expr: $context.currentTrackIndex %%};NA={%%expr:if($context.currentTransaction === null){"TRANSNULL"}else{$context.currentTransaction.name}%%}-{%%expr:if($context.currentPage === null){"PAGENULL"}else{$context.currentPage.name}%%}</Headers>
+                
+                </HTTPCommon>
+              
+              </Message>
+              
+              <Message binding="RestPostBinding" operation="post" service="www.tractorsupply.com">
+                
+                <HTTPCommon>
+                  
+                  <Headers>x-dynaTrace:VU={%% expr: $context.serverName %%};PC={%% expr: $context.locationName %%} - SOASTA;ID={%%Sys-Prop:Composition:StartTimeMillis%%}-{%%Sys-Prop:Track:VUNumber%%}-{%% expr: $context.currentTrackIndex %%};NA={%%expr:if($context.currentTransaction === null){"TRANSNULL"}else{$context.currentTransaction.name}%%}-{%%expr:if($context.currentPage === null){"PAGENULL"}else{$context.currentPage.name}%%}</Headers>
+                
+                </HTTPCommon>
+              
+              </Message>
+            
+            </MessageSupplements>
+          
+          </Supplements>
+        
+        </ServiceDefinition>
+      
+      </Target>
+    </Body>
+    <BinaryData />
+    <Description>real prod (akami testing) https://www.tractorsupply.com
+stress load test prod URL https://knowhow-www.tractorsupply.com
+perf https://knowhow-perf.tractorsupply.com
+perf with akami https://perf.tractorsupply.com
+QA
+</Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>service</Value>
+      </Attribute>
+      <Attribute name="longitude">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="latitude">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+  </Object>
+</rp:ObjectSet>

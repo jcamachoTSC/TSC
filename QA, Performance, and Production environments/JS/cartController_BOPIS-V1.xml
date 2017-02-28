@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="transition" schemaVersion="9481" VCSUid="d1b980898fae13ed227a4a76d4d3fef6" name="cartController_BOPIS-V1" path="/QA, Performance, and Production environments/JS">
+    <Body>
+      <Transition>
+        
+        
+        
+        
+        <Script language="JavaScript">/*
+ * Returns a random integer between min (inclusive) and max (inclusive)
+ * Using Math.round() will give you a non-uniform distribution!
+ */
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+var CartItems_BOPIS = $prop.value("Clip","CartItems_BOPIS");
+//set default cartType, which determines the kind of SKU that will be used.
+var cartType = 1; //default
+//read in the random cartTypePCT from the clip (random number between 0 and 100)
+var cartTypePCT = $prop.value("Clip","PCT-AddToCartType");
+//read tesType from clip property
+var testType = $prop.value('clip','testType');
+//read tesUrl from clip property
+var testUrl = $prop.value('clip','TestURL');
+$context.result.postMessage($context.result.LEVEL_INFO,"testUrl = " + testUrl);
+//create a random number between 3 and 7
+var randomNumber = getRandomInt(CartItems_BOPIS, CartItems_BOPIS);
+//set up an empty array of catEntryIds
+var catEntryIDArray = [];
+
+
+//based on the randome cartTypePCT, set cartType
+if(cartTypePCT >= 70) {
+    cartType = 1; //hotUPS
+    $prop.set("Clip","cartType",1);
+} else {
+    cartType = 2; //LTL
+    $prop.set("Clip","cartType",2);    
+}
+
+$context.result.postMessage($context.result.LEVEL_INFO,"cartType = " + cartType);
+
+if (testType == 'prod' &amp;&amp; testUrl.indexOf('perf.tractorsupply.com') != -1) {
+    $context.result.postMessage($context.result.LEVEL_INFO,"prod/perf");
+    switch (cartType) {
+        case 1:
+        //  catEntryIDArray= $prop.value('clip','HotUps');
+         catEntryIDArray= $prop.value('clip','BOPIS_ups'); 
+        break;
+        case 2:
+           catEntryIDArray= $prop.value('clip','BOPIS_LTL'); 
+        break;
+        
+        default:
+          catEntryIDArray= $prop.value('clip','BOPIS_ups');  
+    }    
+} else if(testType == 'prod' &amp;&amp; testUrl.indexOf('www.tractorsupply.com') != -1) {
+    $context.result.postMessage($context.result.LEVEL_INFO,"prod/prod");
+    switch (cartType) {
+        case 1:
+          catEntryIDArray= $prop.value('clip','BOPIS_prodUps');
+        break;
+        case 2:
+           catEntryIDArray= $prop.value('clip','BOPIS_prodLTL'); 
+        break;
+        
+        default:
+          catEntryIDArray= $prop.value('clip','BOPIS_prodUps');  
+    }
+} else {
+    $context.result.postMessage($context.result.LEVEL_INFO,"perf/perf");
+    switch (cartType) {
+        case 1:
+          //catEntryIDArray= $prop.value('clip','HotUps');
+          catEntryIDArray= $prop.value('clip','BOPIS_ups'); 
+        break;
+        case 2:
+           catEntryIDArray= $prop.value('clip','BOPIS_LTL'); 
+        break;
+        
+        default:
+          catEntryIDArray= $prop.value('clip','BOPIS_ups');  
+    }
+}
+
+//reduce catEntryIDArray to random size
+
+catEntryIDArray = catEntryIDArray.splice(0,randomNumber);
+
+//filter out empty rows
+catEntryIDArray = catEntryIDArray.filter(function(v) {return v.CHILD_CATENTRY_ID.length > 0;})
+//catEntryIDArray = catEntryIDArray.filter(function(v) {return v.length > 0;})
+
+/*for (i in catEntryIDArray) {
+    $context.result.postMessage($context.result.LEVEL_INFO, catEntryIDArray[i].CHILD_PARTNUMBER + "|" +  catEntryIDArray[i].CHILD_CATENTRY_ID + "|" +  catEntryIDArray[i].PARENT_PARTNUMBER + "|" +  catEntryIDArray[i].PARENT_CANTETRY_ID + "|" +  catEntryIDArray[i].AVAILQUANTITY);
+}*/
+
+//Save catEntryIDArray to clip
+$prop.set('clip','catEntryIDArray',catEntryIDArray);
+$prop.set('clip','BOPIS_StoreId',catEntryIDArray[0].STORE_ID);//Store_ID
+</Script>
+      
+      
+      
+      
+      </Transition>
+    </Body>
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>

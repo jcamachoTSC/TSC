@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="transition" schemaVersion="9481" VCSUid="082efeee6bc48bd20206702d0b4ad1be" name="syncLandingPageProps-V1" path="/QA, Performance, and Production environments/JS">
+    <Body>
+      <Transition>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <Script language="JavaScript">var state = $prop.value("Clip","PostalCode_BOPIS_Prod.State");
+var city = $prop.value("Clip","PostalCode_BOPIS_Prod.City");
+var postalCode = $prop.value("Clip","PostalCode_BOPIS_Prod.ZipCode");
+
+$prop.set("Clip","selectedState",state);
+$prop.set("Clip","selectedCity",city);
+$prop.set("Clip","selectedZip",postalCode);
+
+</Script>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      </Transition>
+    </Body>
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>

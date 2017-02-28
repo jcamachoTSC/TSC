@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="transition" schemaVersion="9481" VCSUid="ccef14932717cfa693f467f910e556ec" name="syncOnlineUserProps-V1" path="/QA, Performance, and Production environments/JS">
+    <Body>
+      <Transition>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <Script language="JavaScript">var storeId = $prop.value("Clip","inStoreId");
+var state = $prop.value("Clip","inState");
+var city = $prop.value("Clip","inCity");
+var postalCode = $prop.value("Clip","inZip");
+var cataId = $prop.value("Clip","inCataId");
+
+if(storeId !== "undefined" &amp;&amp; storeId !== null &amp;&amp; storeId != ""){
+  $prop.set("Clip","selectedStoreId",storeId);
+  $prop.set("Clip","selectedCataId",cataId);
+}
+
+if(postalCode !== "undefined" &amp;&amp; postalCode !== null &amp;&amp; postalCode != ""){
+    
+  $prop.set("Clip","selectedPostal",postalCode);
+  $prop.set("Clip","selectedState",state);
+  $prop.set("Clip","selectedCity",city);
+  
+} else {
+    
+  var currentZip = $prop.value("Clip","ZipCode.ZipCode");
+  var currentState = $prop.value("Clip","ZipCode.State");
+  var currentCity = $prop.value("Clip","ZipCode.City");
+  var currentStore = $prop.value("Clip","defaultStoreId");
+  var currentCata = $prop.value("Clip","defaultCataId");
+
+  $prop.set("Clip","selectedPostal",currentZip);
+  $prop.set("Clip","selectedState",currentState);
+  $prop.set("Clip","selectedCity",currentCity);
+  $prop.set("Clip","selectedCataId",currentCata);
+  $prop.set("Clip","selectedStoreId",currentStore);
+
+
+}
+</Script>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      </Transition>
+    </Body>
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>

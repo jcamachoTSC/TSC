@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="transition" schemaVersion="9481" VCSUid="e13c887bf03fe5b780bed6b60e12ffb4" name="Rename Item Name" path="/QA, Performance, and Production environments/JS">
+    <Body>
+      <Transition>
+        
+        
+        <Script language="JavaScript">/*var ItemName = $context.currentItem.nextItem;
+$context.result.postMessage($context.result.LEVEL_INFO, "Item = " + ItemName);
+ItemName.name = "Figaro";*/
+
+function renameItem(type,name,newName,entryPoint) {
+    
+    var children = entryPoint.children;
+        
+        for (i in children) {
+            
+            if (children[i].type == type &amp;&amp; children[i].name == name) {
+                
+                //Item found.  Will rename.
+                //$context.result.postMessage($context.result.LEVEL_INFO, "match found : name = " + children[i].name + " type = " + children[i].type);
+                
+                children[i].name = newName;
+                
+            } else if (children[i].children) {
+                
+                //need to go one level deeper
+                renameItem(type,name,newName,children[i]);
+                
+            }           
+        }           
+}
+
+if ($prop.value("clip", "testType") == "perf"){//PERF
+    if($prop.value("clip", "registeredUserPct") &lt;= 60){//PERF_Guest
+        if ($prop.value("clip", "PCT-BOPISOrders") &lt;= 70){//PERF_Guest_NonBOPIS
+            if ($prop.value("clip", "skuType") == "UPS"){//PERF_Guest_NonBOPIS_UPS_Order
+                renameItem('Group','ProdOrder','PERF_Guest_NonBOPIS_UPS_Order',$context.currentGroup);
+                $context.result.postMessage($context.result.LEVEL_INFO, "PERF_Guest_NonBOPIS_UPS_Order");
+                /*if ($prop.value("clip", "Perc_STS") &lt;= 90){//PERF_Guest_NonBOPIS_UPS_ShipToAddress_Order
+                
+                }else{//PERF_Guest_NonBOPIS_UPS_ShipToStore_Order
+                    
+                }*/
+            }else {//PERF_Guest_NonBOPIS_LTL_Order
+                renameItem('Group','ProdOrder','PERF_Guest_NonBOPIS_LTL_Order',$context.currentGroup);
+                $context.result.postMessage($context.result.LEVEL_INFO, "PERF_Guest_NonBOPIS_LTL_Order");
+            }
+        }else {//PERF_Guest_BOPIS
+            if ($prop.value("clip", "PCT-BOPIS-MIXED") &lt;= 50){//PERF_Guest_BOPIS_Order
+                renameItem('Group','ProdOrder','PERF_Guest_BOPIS_Order',$context.currentGroup);
+                $context.result.postMessage($context.result.LEVEL_INFO, "PERF_Guest_BOPIS_Order");
+            }else {//PERF_Guest_BOPIS_Mixed_Order
+                renameItem('Group','ProdOrder','PERF_Guest_BOPIS_Mixed_Order',$context.currentGroup);
+                $context.result.postMessage($context.result.LEVEL_INFO, "PERF_Guest_BOPIS_Mixed_Order");
+            }
+        }
+    }else {//REGISTERED
+        if ($prop.value("clip", "PCT-BOPISOrders") &lt;= 70){//PERF_Registered_NonBOPIS
+            if ($prop.value("clip", "skuType") == "UPS"){//PERF_Registered_NonBOPIS_UPS_Order
+                renameItem('Group','ProdOrder','PERF_Registered_NonBOPIS_UPS_Order',$context.currentGroup);
+                $context.result.postMessage($context.result.LEVEL_INFO, "PERF_Registered_NonBOPIS_UPS_Order");
+                /*if ($prop.value("clip", "Perc_STS") &lt;= 90){//PERF_Registered_NonBOPIS_UPS_ShipToAddress_Order
+                    
+                }else{//PERF_Registered_NonBOPIS_UPS_ShipToStore_Order
+                    
+                }*/
+            }else {//PERF_Registered_NonBOPIS_LTL_Order
+                renameItem('Group','ProdOrder','PERF_Registered_NonBOPIS_LTL_Order',$context.currentGroup);
+                $context.result.postMessage($context.result.LEVEL_INFO, "PERF_Registered_NonBOPIS_LTL_Order");
+            }
+        }else {//PERF_Registered_BOPIS
+            if ($prop.value("clip", "PCT-BOPIS-MIXED") &lt;= 50){//PERF_Registered_BOPIS_Order
+                renameItem('Group','ProdOrder','PERF_Registered_BOPIS_Order',$context.currentGroup);
+                $context.result.postMessage($context.result.LEVEL_INFO, "PERF_Registered_BOPIS_Order");
+            }else {//PERF_Registered_BOPIS_Mixed_Order
+                renameItem('Group','ProdOrder','PERF_Registered_BOPIS_Mixed_Order',$context.currentGroup);
+                $context.result.postMessage($context.result.LEVEL_INFO, "PERF_Registered_BOPIS_Mixed_Order");
+            }
+        }
+    }
+} else{//PROD
+    if ($prop.value("clip", "PCT-BOPISOrders") &lt;= 70){//PROD_Guest_NonBOPIS
+        if ($prop.value("clip", "skuType") == "UPS"){//PROD_Guest_NonBOPIS_UPS_Order
+            renameItem('Group','ProdOrder','PROD_Guest_NonBOPIS_UPS_Order',$context.currentGroup);
+            $context.result.postMessage($context.result.LEVEL_INFO, "PROD_Guest_NonBOPIS_UPS_Order");
+            /*if ($prop.value("clip", "Perc_STS") &lt;= 90){//PROD_Guest_NonBOPIS_UPS_ShipToAddress_Order
+            
+            }else{//PROD_Guest_NonBOPIS_UPS_ShipToStore_Order
+                
+            }*/
+        }else {//PROD_Guest_NonBOPIS_LTL_Order
+            renameItem('Group','ProdOrder','PROD_Guest_NonBOPIS_LTL_Order',$context.currentGroup);
+            $context.result.postMessage($context.result.LEVEL_INFO, "PROD_Guest_NonBOPIS_LTL_Order");
+        }
+    }else {//PROD_Guest_BOPIS
+        if ($prop.value("clip", "PCT-BOPIS-MIXED") &lt;= 50){//PROD_Guest_BOPIS_Order
+            renameItem('Group','ProdOrder','PROD_Guest_BOPIS_Order',$context.currentGroup);
+            $context.result.postMessage($context.result.LEVEL_INFO, "PROD_Guest_BOPIS_Order");
+        }else {//PROD_Guest_BOPIS_Mixed_Order
+            renameItem('Group','ProdOrder','PROD_Guest_BOPIS_Mixed_Order',$context.currentGroup);
+            $context.result.postMessage($context.result.LEVEL_INFO, "PROD_Guest_BOPIS_Mixed_Order");
+        }
+    }
+}
+
+/*renameItem('Group','Group1','Froggy',$context.currentClip);
+renameItem('Transaction','Transaction1','Spanky',$context.currentClip);
+renameItem('Page','ProdOrder','BOPIS_Guest_UPS_Order',$context.currentClip);
+renameItem('Message','Message1','Buckwheat',$context.currentClip);*/
+</Script>
+      
+      
+      </Transition>
+    </Body>
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>

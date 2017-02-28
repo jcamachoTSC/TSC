@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="transition" schemaVersion="9481" VCSUid="7aacae2dcab0ac330f347e9b35b7e48a" name="PDPController-V1" path="/QA, Performance, and Production environments/JS">
+    <Body>
+      <Transition>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <Script language="JavaScript">var searchPCT = 0;
+pdpPCT = $prop.value("Clip","PCT-PDP");
+pdpCnt = $prop.value("Clip","PDP-Cnt");
+
+if(pdpPCT &lt;= 77 &amp; pdpCnt &lt; 1) {
+    pdpCnt = pdpCnt+1;
+    $prop.set("Clip","PDP-Cnt",pdpCnt);  
+} else {
+    $prop.set("Clip","PDPController","false"); //This will stop the loop on the next repeast
+}
+</Script>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      </Transition>
+    </Body>
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>

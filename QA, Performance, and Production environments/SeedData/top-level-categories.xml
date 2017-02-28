@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="seeddata" schemaVersion="9481" VCSUid="54e48e721cc6b6f3cbbb9128bb0d5e68" name="top-level-categories" path="/QA, Performance, and Production environments/SeedData">
+    <Body>
+      <SeedData xmlns="http://www.soasta.com/services/repository" />
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="encrypted">
+        <Value>false</Value>
+      </Attribute>
+      <Attribute name="type">
+        <Value>internal</Value>
+      </Attribute>
+    </Attributes>
+  </Object>
+  <SeedDataChunk encoding="base64">InVybCIsIm5hbWUiLCJjb250ZW50cyIKIi90c2MvY2F0YWxvZy9mYXJtLXJhbmNoIiwiRmFybSIsIkNhdGVnb3J5UGFnZSIKIi90c2MvY2F0YWxvZy9mb290d2VhciIsIkZvb3R3ZWFyIiwiU2VhcmNoUmVzdWx0c1BhZ2UiCiIvdHNjL2NhdGFsb2cvaG9tZS1nYXJkZW4iLCJIb21lIiwiQ2F0ZWdvcnlQYWdlIgoiL3RzYy9jYXRhbG9nL3BldHMtbGl2ZXN0b2NrIiwiUGV0cyIsIkNhdGVnb3J5UGFnZSIKIi90c2MvY2F0YWxvZy9jbG90aGluZyIsIkNsb3RoaW5nIiwiQ2F0ZWdvcnlQYWdlIgoiL3RzYy9jYXRhbG9nL2hhcmR3YXJlLXRvb2xzIiwiSGFyZHdhcmUiLCJDYXRlZ29yeVBhZ2UiCiIvdHNjL2NhdGFsb2cvdHJ1Y2stdHJhaWxlciIsIlRydWNrIiwiQ2F0ZWdvcnlQYWdlIgoiL3RzYy9jYXRhbG9nL291dGRvb3JzIiwiT3V0ZG9vcnMiLCJDYXRlZ29yeVBhZ2UiCg==</SeedDataChunk>
+</rp:ObjectSet>

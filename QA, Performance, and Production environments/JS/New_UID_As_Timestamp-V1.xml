@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="transition" schemaVersion="9481" VCSUid="aea5343c7da0d1fe6d7a1f939f5b0c74" name="New_UID_As_Timestamp-V1" path="/QA, Performance, and Production environments/JS">
+    <Body>
+      <Transition>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <Script language="JavaScript">var vus = new Number($context.currentTrack.systemPropertyList.getPropertyValue("VUNumber"));
+        // var totalcount =$context.currentTrack.propertyList.getPropertyValue("VuPerTrack");
+var startTimeMilis = new Date().getTime();
+var clipIndex = $context.currentClipIndex;
+var date = new Date();
+
+if(-1 == clipIndex)
+{
+  clipIndex = 0;
+}
+
+function generateRandomString(stringLength) 
+{
+    var pool = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    var poolLength = pool.length;
+    var randomString = [];
+
+    for (var ndx = 0; ndx &lt; stringLength; ndx++)
+    {
+        randomString[ndx] = pool.charAt(Math.floor(Math.random() * poolLength));
+    }
+    return randomString.join("");
+}
+
+//var RandomSurname  = generateRandomString(6);
+
+//var uniqueNumber = vus+"-"+startTimeMilis+"-"+clipIndex;
+//var uniqueNumber = "0";
+//var h=(hhh=d.getHours());
+//var hh = h>10?('0'+h):h;
+//var mm=(m=d.getMinutes())>10?('0'+m):m;
+//var ss=(s=d.getSeconds())>10?('0'+s):s;
+var hh = date.getHours();
+var mm = date.getMinutes();
+var ss = date.getSeconds();
+if (hh &lt; 10) {hh = "0"+hh;}
+if (mm &lt; 10) {mm = "0"+mm;}
+if (ss &lt; 10) {ss = "0"+ss;}
+
+
+//var uniqueNumber = RandomSurname+vus+hh+mm+ss;
+var uniqueNumber = vus+""+clipIndex+""+hh+""+mm+""+ss;
+
+$prop.set("MessageClip", "RandomSurname", uniqueNumber);  
+$context.result.postMessage($context.result.LEVEL_INFO, "Random Surname = "+ uniqueNumber); 
+$context.result.postMessage($context.result.LEVEL_INFO, "Vuser is = "+ vus);
+$context.result.postMessage($context.result.LEVEL_INFO, "ClipIndex is = "+ clipIndex);
+$context.result.postMessage($context.result.LEVEL_INFO, "Hour is = "+ hh);
+$context.result.postMessage($context.result.LEVEL_INFO, "Mins is = "+ mm);
+$context.result.postMessage($context.result.LEVEL_INFO, "Seconds is = "+ ss);
+</Script>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      </Transition>
+    </Body>
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>

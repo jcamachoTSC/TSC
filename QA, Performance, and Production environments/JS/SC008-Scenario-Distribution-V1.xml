@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="transition" schemaVersion="9481" VCSUid="f0015ca1b98b7f1cfcf1795270de0d2d" name="SC008-Scenario-Distribution-V1" path="/QA, Performance, and Production environments/JS">
+    <Body>
+      <Transition>
+        
+        
+        
+        
+        
+        
+        
+        <Script language="JavaScript">var prct = $prop.value("Clip","RandomScenarioPercentage");
+var testType = $prop.value("Clip","testType");
+
+$context.result.postMessage($context.result.LEVEL_INFO, "testType = "+ testType); 
+
+if (testType == "perf") {
+    //if (prct >= 50) {// 50% each
+    if (prct &lt;= 0) {// 100% User Registration for PERF
+      UserScenarioBucket = 2;  //Order Status
+    } else {
+        UserScenarioBucket = 1; //User Registration
+    }
+} else {
+
+    UserScenarioBucket = 2;
+}
+
+$prop.set("Clip","UserScenarioBucket",UserScenarioBucket);
+</Script>
+      
+      
+      
+      
+      
+      
+      
+      </Transition>
+    </Body>
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="folder" schemaVersion="9481" VCSUid="747a5f25a9e136fe26c35cfe4edd8e4b" name="Compositions for Perf and Prod Environment" path="/QA, Performance, and Production environments">
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>

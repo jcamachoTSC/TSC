@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="transition" schemaVersion="9481" VCSUid="d01da9403acb650825a5d031e40aa40c" name="Loop Controller-V1" path="/QA, Performance, and Production environments/JS">
+    <Body>
+      <Transition>
+        <Script language="JavaScript">var limit = $prop.value("clip","limit");
+
+if (limit &lt; 2){
+    //$context.result.postMessage($context.result.LEVEL_INFO, "Limit Before = " + limit);
+    limit = parseInt(limit,10) + 1;
+    $prop.set("clip","limit",limit);
+    $context.result.postMessage($context.result.LEVEL_INFO, "Limit After = " + limit);
+}else{
+    $prop.set('clip','loopController', false);
+    //$context.result.postMessage($context.result.LEVEL_INFO, "Loop ended");
+    }
+</Script>
+      </Transition>
+    </Body>
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>

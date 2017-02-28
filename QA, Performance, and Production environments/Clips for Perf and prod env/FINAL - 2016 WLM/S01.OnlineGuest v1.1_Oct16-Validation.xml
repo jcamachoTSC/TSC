@@ -1,0 +1,5907 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="messageclip" schemaVersion="9481" VCSUid="6e674a704df8530382f5cb0912786ff8" name="S01.OnlineGuest v1.1_Oct16-Validation" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM">
+    <Body>
+      <MessageClip xmlns="http://www.soasta.com/services/repository">
+        
+        <Targets xmlns="http://www.soasta.com/services/repository" />
+        
+        <UserProperties xmlns="http://www.soasta.com/services/repository">
+          
+          <UserProperty name="storeId" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository" />
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="cataId" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository" />
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="postalCode" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository" />
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="state" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository" />
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="city" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository" />
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="lpStoreId" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository" />
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="lpZoneNum" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository" />
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="lpCity" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository" />
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="lpState" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository" />
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="lpPostalCode" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository" />
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="checkoutPct" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <GeneratedValue xmlns="http://www.soasta.com/services/repository">
+              
+              <RandomInteger max="1000" min="1" xmlns="http://www.soasta.com/services/repository" />
+            
+            </GeneratedValue>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="registeredUserPct" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <GeneratedValue xmlns="http://www.soasta.com/services/repository">
+              
+              <RandomInteger max="100" min="1" xmlns="http://www.soasta.com/services/repository" />
+            
+            </GeneratedValue>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="userRegistrationPct" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <GeneratedValue xmlns="http://www.soasta.com/services/repository">
+              
+              <RandomInteger max="100" min="1" xmlns="http://www.soasta.com/services/repository" />
+            
+            </GeneratedValue>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="PCT-Browse" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <GeneratedValue xmlns="http://www.soasta.com/services/repository">
+              
+              <RandomInteger max="100" min="1" xmlns="http://www.soasta.com/services/repository" />
+            
+            </GeneratedValue>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="PCT-PDP" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <GeneratedValue xmlns="http://www.soasta.com/services/repository">
+              
+              <RandomInteger max="100" min="1" xmlns="http://www.soasta.com/services/repository" />
+            
+            </GeneratedValue>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="PCT-Static" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <GeneratedValue xmlns="http://www.soasta.com/services/repository">
+              
+              <RandomInteger max="100" min="1" xmlns="http://www.soasta.com/services/repository" />
+            
+            </GeneratedValue>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="PCT-Search" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <GeneratedValue xmlns="http://www.soasta.com/services/repository">
+              
+              <RandomInteger max="100" min="1" xmlns="http://www.soasta.com/services/repository" />
+            
+            </GeneratedValue>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="PCT-StoreLocator" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <GeneratedValue xmlns="http://www.soasta.com/services/repository">
+              
+              <RandomInteger max="100" min="1" xmlns="http://www.soasta.com/services/repository" />
+            
+            </GeneratedValue>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="PCT-RegisterUser" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <GeneratedValue xmlns="http://www.soasta.com/services/repository">
+              
+              <RandomInteger max="100" min="1" xmlns="http://www.soasta.com/services/repository" />
+            
+            </GeneratedValue>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="PCT-Checkout" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <GeneratedValue xmlns="http://www.soasta.com/services/repository">
+              
+              <RandomInteger max="100" min="1" xmlns="http://www.soasta.com/services/repository" />
+            
+            </GeneratedValue>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="SearchLoop" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository">true</Value>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="PCT-AddToCart" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <GeneratedValue xmlns="http://www.soasta.com/services/repository">
+              
+              <RandomInteger max="100" min="1" xmlns="http://www.soasta.com/services/repository" />
+            
+            </GeneratedValue>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="searchCnt" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository">0</Value>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="PDP-Cnt" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository">0</Value>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="PDPController" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository">true</Value>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="testUrl" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository">www.tractorsupply.com</Value>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="testType" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository">prod</Value>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="PCT-HomePage" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <GeneratedValue xmlns="http://www.soasta.com/services/repository">
+              
+              <RandomInteger max="100" min="1" xmlns="http://www.soasta.com/services/repository" />
+            
+            </GeneratedValue>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="PCT-BOPISOrders" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <GeneratedValue xmlns="http://www.soasta.com/services/repository">
+              
+              <RandomInteger max="100" min="1" xmlns="http://www.soasta.com/services/repository" />
+            
+            </GeneratedValue>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="PCT-BOPIS-MIXED" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <GeneratedValue xmlns="http://www.soasta.com/services/repository">
+              
+              <RandomInteger max="100" min="1" xmlns="http://www.soasta.com/services/repository" />
+            
+            </GeneratedValue>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="BOPIS_StoreId" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository">263</Value>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="isBopis" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository">Y</Value>
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="physical_storeId" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository" />
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+        
+        </UserProperties>
+        
+        <Options dynamicResourceCache="enabled" interItemDelay="0" xmlns="http://www.soasta.com/services/repository" />
+      
+      </MessageClip>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>sequenced</Value>
+      </Attribute>
+    </Attributes>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="SC001.LandingPage v0.03" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation" parentType="messageclip" uid="b2b74733-3e19-400f-9bcf-7263245494b5">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        <Clip xmlns="http://www.soasta.com/services/repository">
+          
+          <ClipRef internalID="0" xmlns="http://www.soasta.com/services/repository" />
+          
+          <Options failure-action="fail" mergeTargets="true" useParentDynamicResourceCache="true" xmlns="http://www.soasta.com/services/repository" />
+          
+          <BeforePlay xmlns="http://www.soasta.com/services/repository">
+            
+            <PropSets xmlns="http://www.soasta.com/services/repository">
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="TestType" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="/testType" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="TestURL" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="/testUrl" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+            
+            </PropSets>
+          
+          </BeforePlay>
+          
+          <AfterPlay xmlns="http://www.soasta.com/services/repository">
+            
+            <PropSets xmlns="http://www.soasta.com/services/repository">
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="/cataId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="LocalCatID" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="/storeId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="LocalStoreID" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="/testUrl" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="TestURL" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="/postalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="selectedZip" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="/state" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="selectedState" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="/city" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="selectedCity" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="/lpPostalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="lpPostalCode" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="/lpStoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="lpStoreId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="/lpZoneNum" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="lpZoneNum" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="/lpCity" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="lpCity" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="/lpState" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="lpState" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="/BOPIS_StoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="BOPIS_StoreId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="/isBopis" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="isBopis" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="/physical_storeId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="StoreLocator" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+            
+            </PropSets>
+          
+          </AfterPlay>
+        
+        </Clip>
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>clip</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="9738" internalID="0" name="SC001.LandingPage v1.1_Oct16" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM" type="messageclip" />
+    </References>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="SC002.Browse v1.1_Oct16" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation" parentType="messageclip" uid="3541454e-3a4f-47c3-ad33-1262ef42e336">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        
+        
+        
+        <Clip xmlns="http://www.soasta.com/services/repository">
+          
+          
+          
+          
+          
+          <ClipRef internalID="0" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          
+          
+          
+          <Options failure-action="fail" mergeTargets="true" useParentDynamicResourceCache="true" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          
+          
+          
+          <BeforePlay xmlns="http://www.soasta.com/services/repository">
+            
+            
+            
+            
+            
+            <PropSets xmlns="http://www.soasta.com/services/repository">
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="BOPIS_StoreId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/BOPIS_StoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="inCity" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/lpCity" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="inState" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/lpState" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="inZip" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/lpPostalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="inStoreId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/lpStoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="inCataId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/cataId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="isBopis" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/isBopis" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+            
+            
+            
+            
+            
+            </PropSets>
+          
+          
+          
+          
+          
+          </BeforePlay>
+        
+        
+        
+        
+        
+        </Clip>
+      
+      
+      
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>clip</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>1</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="9743" internalID="0" name="SC002.Browse v1.1_Oct16" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM" type="messageclip" />
+    </References>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="Search" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation" parentType="messageclip" uid="7cfcacad-bdb2-4d4f-ad1e-906098bb1d40">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        
+        
+        
+        
+        
+        <GroupStart xmlns="http://www.soasta.com/services/repository">
+          
+          
+          
+          
+          
+          
+          
+          <Options failure-action="record-only" xmlns="http://www.soasta.com/services/repository" />
+        
+        
+        
+        
+        
+        
+        
+        </GroupStart>
+      
+      
+      
+      
+      
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>group</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>2</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value>&lt;Repeat repeatType="wp" timing="s">&lt;Count>&lt;Ref path="/SearchLoop" pathType="parent-clip" type="user"/>&lt;/Count>&lt;/Repeat></Value>
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="SC003.Search v0.03" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation//Search" parentType="clipelement" uid="5f2a6883-15b8-4b23-89a6-1113cf741f7e">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        
+        
+        
+        <Clip xmlns="http://www.soasta.com/services/repository">
+          
+          
+          
+          
+          
+          <ClipRef internalID="0" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          
+          
+          
+          <Options failure-action="fail" mergeTargets="true" useParentDynamicResourceCache="true" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          
+          
+          
+          <BeforePlay xmlns="http://www.soasta.com/services/repository">
+            
+            
+            
+            
+            
+            <PropSets xmlns="http://www.soasta.com/services/repository">
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="isBopis" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/isBopis" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+            
+            
+            
+            
+            
+            </PropSets>
+          
+          
+          
+          
+          
+          </BeforePlay>
+        
+        
+        
+        
+        
+        </Clip>
+      
+      
+      
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>clip</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="9748" internalID="0" name="SC003.Search v1.1_Oct16" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM" type="messageclip" />
+    </References>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="SearchController copy" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation//Search" parentType="clipelement" uid="dd17fe68-732b-4133-b2e3-10ed4329c6ad">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        
+        
+        
+        
+        
+        <Transition xmlns="http://www.soasta.com/services/repository">
+          
+          
+          
+          
+          
+          
+          
+          <TransitionRef internalID="0" xmlns="http://www.soasta.com/services/repository" />
+        
+        
+        
+        
+        
+        
+        
+        </Transition>
+      
+      
+      
+      
+      
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>transition</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>1</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="9736" internalID="0" name="SearchController-V1" path="/QA, Performance, and Production environments/JS" type="transition" />
+    </References>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="PDP" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation" parentType="messageclip" uid="5f2eebc0-8c56-4c4c-8c27-d02e67a05238">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        
+        
+        
+        
+        
+        <GroupStart xmlns="http://www.soasta.com/services/repository">
+          
+          
+          
+          
+          
+          
+          
+          <Options failure-action="record-only" xmlns="http://www.soasta.com/services/repository" />
+        
+        
+        
+        
+        
+        
+        
+        </GroupStart>
+      
+      
+      
+      
+      
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>group</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>3</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value>&lt;Repeat repeatType="wp" timing="s">&lt;Count>&lt;Ref path="/PDPController" pathType="parent-clip" type="user"/>&lt;/Count>&lt;/Repeat></Value>
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="SC004.Product v1.1_Oct16" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation//PDP" parentType="clipelement" uid="63447adb-8681-480e-9a99-bb5cc8d122a8">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        <Clip xmlns="http://www.soasta.com/services/repository">
+          
+          <ClipRef internalID="0" xmlns="http://www.soasta.com/services/repository" />
+          
+          <Options failure-action="fail" mergeTargets="true" useParentDynamicResourceCache="true" xmlns="http://www.soasta.com/services/repository" />
+          
+          <BeforePlay xmlns="http://www.soasta.com/services/repository">
+            
+            <PropSets xmlns="http://www.soasta.com/services/repository">
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="postalCode" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="/lpPostalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="testType" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="/testType" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="isBopis" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="/isBopis" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="physical_storeId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="/physical_storeId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+            
+            </PropSets>
+          
+          </BeforePlay>
+        
+        </Clip>
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>clip</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="9751" internalID="0" name="SC004.Product v1.1_Oct16" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM" type="messageclip" />
+    </References>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="PDPController copy" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation//PDP" parentType="clipelement" uid="0253d05c-b1ef-4ed2-9d91-a0a102ec21b2">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        
+        
+        
+        
+        
+        <Transition xmlns="http://www.soasta.com/services/repository">
+          
+          
+          
+          
+          
+          
+          
+          <TransitionRef internalID="0" xmlns="http://www.soasta.com/services/repository" />
+        
+        
+        
+        
+        
+        
+        
+        </Transition>
+      
+      
+      
+      
+      
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>transition</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>1</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="9737" internalID="0" name="PDPController-V1" path="/QA, Performance, and Production environments/JS" type="transition" />
+    </References>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="Add To Cart" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation" parentType="messageclip" uid="3f51c244-2de3-4a54-b848-f2324d5e689e">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        
+        
+        
+        
+        
+        <GroupStart xmlns="http://www.soasta.com/services/repository" />
+      
+      
+      
+      
+      
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>group</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>4</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="SC005.AddToCart v0.02" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation//Add To Cart" parentType="clipelement" uid="f424c7dc-b38e-4a58-a048-c2001c831a55">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        
+        
+        
+        <Clip xmlns="http://www.soasta.com/services/repository">
+          
+          
+          
+          
+          
+          <ClipRef internalID="0" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          
+          
+          
+          <Options failure-action="fail" mergeTargets="false" useParentDynamicResourceCache="false" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          
+          
+          
+          <BeforePlay xmlns="http://www.soasta.com/services/repository">
+            
+            
+            
+            
+            
+            <PropSets xmlns="http://www.soasta.com/services/repository">
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="TestURL" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/testUrl" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="lpCity" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/lpCity" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="lpStateName" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/lpState" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="lpStoreNum" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/lpStoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="lpZipCodeNum" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/lpPostalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="lpZoneId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/lpZoneNum" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="inStoreId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/storeId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="inCataId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/cataId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="inCity" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/city" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="inState" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/state" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="inZip" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/postalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="testType" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/testType" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="isBopis" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/isBopis" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+            
+            
+            
+            
+            
+            </PropSets>
+          
+          
+          
+          
+          
+          </BeforePlay>
+        
+        
+        
+        
+        
+        </Clip>
+      
+      
+      
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>clip</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="9752" internalID="0" name="SC005.AddToCart v1.1_Oct16" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM" type="messageclip" />
+    </References>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="SC005.AddToCart v1.1_Oct16-BOPIS" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation//Add To Cart" parentType="clipelement" uid="88091fa6-75b6-4420-bece-b1e0d2733ac8">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        
+        
+        
+        <Clip xmlns="http://www.soasta.com/services/repository">
+          
+          
+          
+          
+          
+          <ClipRef internalID="0" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          
+          
+          
+          <Options failure-action="fail" mergeTargets="false" useParentDynamicResourceCache="false" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          
+          
+          
+          <BeforePlay xmlns="http://www.soasta.com/services/repository">
+            
+            
+            
+            
+            
+            <PropSets xmlns="http://www.soasta.com/services/repository">
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="BOPIS_StoreId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/BOPIS_StoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="testType" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/testType" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="inZip" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/postalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="inState" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/state" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="inCity" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/city" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="inCataId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/cataId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="inStoreId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/storeId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="lpZoneId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/lpZoneNum" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="lpZipCodeNum" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/lpPostalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="lpStoreNum" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/lpStoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="lpStateName" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/lpState" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="lpCity" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/lpCity" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="TestURL" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/testUrl" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="isBopis" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/isBopis" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+            
+            
+            
+            
+            
+            </PropSets>
+          
+          
+          
+          
+          
+          </BeforePlay>
+        
+        
+        
+        
+        
+        </Clip>
+      
+      
+      
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>clip</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>1</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="9754" internalID="0" name="SC005.AddToCart v1.1_Oct16-BOPIS" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM" type="messageclip" />
+    </References>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="Checkout" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation" parentType="messageclip" uid="88281a32-037e-4b8c-baf0-e94c18ba24f1">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        
+        
+        
+        
+        
+        <GroupStart xmlns="http://www.soasta.com/services/repository" />
+      
+      
+      
+      
+      
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>group</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>5</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="Comment1" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation//Checkout" parentType="clipelement" uid="469df023-4509-46f5-9096-e4d3c1182393">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        
+        
+        
+        
+        
+        <Comment xmlns="http://www.soasta.com/services/repository">
+          
+          
+          
+          
+          
+          
+          
+          <Content xmlns="http://www.soasta.com/services/repository">&lt;p class="defaultComment">&lt;strong>&lt;span style="color:#FF0000">If testType = "perf", checkout will be distributed as 20% registered, 80% guest. &amp;nbsp;If it is "prod", 100% will be checking out as guest.&lt;/span>&lt;/strong>&lt;/p>
+</Content>
+        
+        
+        
+        
+        
+        
+        
+        </Comment>
+      
+      
+      
+      
+      
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>comment</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="SC006.GuestCheckout v0.03_NonBOPIS" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation//Checkout" parentType="clipelement" uid="092feabc-2a51-411a-9e19-1259f7366759">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        <Clip xmlns="http://www.soasta.com/services/repository">
+          
+          
+          <ClipRef internalID="0" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          <Options failure-action="fail" mergeTargets="false" useParentDynamicResourceCache="false" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          <BeforePlay xmlns="http://www.soasta.com/services/repository">
+            
+            
+            <PropSets xmlns="http://www.soasta.com/services/repository">
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="BOPIS_StoreId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/BOPIS_StoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="storeId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/storeId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="TestURL" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/testUrl" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="State" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/state" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="zipCode" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/postalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpCity" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpCity" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpStateName" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpState" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpStoreNum" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpStoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpZipCodeNum" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpPostalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpZoneId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpZoneNum" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="catalogId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/cataId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="testType" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/testType" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="isBopis" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/isBopis" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="registeredUserPct" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/registeredUserPct" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="PCT-BOPISOrders" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/PCT-BOPISOrders" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="PCT-BOPIS-MIXED" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/PCT-BOPIS-MIXED" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+            
+            
+            </PropSets>
+          
+          
+          </BeforePlay>
+        
+        
+        </Clip>
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>clip</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>1</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="9756" internalID="0" name="SC006.GuestCheckout v1.1_Oct16_NonBOPIS" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM" type="messageclip" />
+    </References>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="SC006.GuestCheckout v0.03_BOPIS" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation//Checkout" parentType="clipelement" uid="440609c8-c586-4287-8174-76e7d7bf2be6">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        <Clip xmlns="http://www.soasta.com/services/repository">
+          
+          
+          <ClipRef internalID="0" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          <Options failure-action="fail" mergeTargets="false" useParentDynamicResourceCache="false" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          <BeforePlay xmlns="http://www.soasta.com/services/repository">
+            
+            
+            <PropSets xmlns="http://www.soasta.com/services/repository">
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="BOPIS_StoreId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/BOPIS_StoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="testType" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/testType" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpStoreId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpStoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpZone" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpZoneNum" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpZipNum" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpPostalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpState" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpState" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="catalogId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/cataId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpZoneId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpZoneNum" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpZipCodeNum" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpPostalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpStoreNum" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpStoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpStateName" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpState" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpCity" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpCity" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="zipCode" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/postalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="State" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/state" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="TestURL" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/testUrl" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="storeId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/storeId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="isBopis" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/isBopis" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="PCT-BOPISOrders" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/PCT-BOPISOrders" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="egisteredUserPct" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/registeredUserPct" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="PCT-BOPIS-MIXED" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/PCT-BOPIS-MIXED" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="registeredUserPct" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/registeredUserPct" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+            
+            
+            </PropSets>
+          
+          
+          </BeforePlay>
+        
+        
+        </Clip>
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>clip</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>2</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="9758" internalID="0" name="SC006.GuestCheckout v1.1_Oct16_BOPIS" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM" type="messageclip" />
+    </References>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="SC006.GuestCheckout v0.03_Mixed" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation//Checkout" parentType="clipelement" uid="d7b14adb-911e-47b6-ae0e-716fff2c705c">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        <Clip xmlns="http://www.soasta.com/services/repository">
+          
+          
+          <ClipRef internalID="0" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          <Options failure-action="fail" mergeTargets="false" useParentDynamicResourceCache="false" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          <BeforePlay xmlns="http://www.soasta.com/services/repository">
+            
+            
+            <PropSets xmlns="http://www.soasta.com/services/repository">
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="BOPIS_StoreId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/BOPIS_StoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="storeId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/storeId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="TestURL" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/testUrl" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="State" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/state" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="zipCode" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/postalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpCity" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpCity" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpStateName" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpState" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpStoreNum" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpStoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpZipCodeNum" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpPostalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpZoneId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpZoneNum" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="catalogId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/cataId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="testType" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/testType" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="isBopis" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/isBopis" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="PCT-BOPIS-MIXED" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/PCT-BOPIS-MIXED" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="PCT-BOPISOrders" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/PCT-BOPISOrders" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="registeredUserPct" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/registeredUserPct" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+            
+            
+            </PropSets>
+          
+          
+          </BeforePlay>
+        
+        
+        </Clip>
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>clip</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>3</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="9759" internalID="0" name="SC006.GuestCheckout v1.1_Oct16_Mixed" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM" type="messageclip" />
+    </References>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="SC010.RegisteredUserCheckout v0.03_NonBOPIS" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation//Checkout" parentType="clipelement" uid="72c5d88e-a68e-400d-ab7b-ef69a8c529fa">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        <Clip xmlns="http://www.soasta.com/services/repository">
+          
+          
+          <ClipRef internalID="0" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          <Options failure-action="fail" mergeTargets="false" useParentDynamicResourceCache="false" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          <BeforePlay xmlns="http://www.soasta.com/services/repository">
+            
+            
+            <PropSets xmlns="http://www.soasta.com/services/repository">
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="BOPIS_StoreId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/BOPIS_StoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="storeId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/storeId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="TestURL" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/testUrl" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="State" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/state" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="zipCode" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/postalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpCity" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpCity" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpStateName" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpState" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpStoreNum" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpStoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpZipCodeNum" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpPostalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpZoneId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpZoneNum" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="catalogId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/cataId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="testType" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/testType" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="isBopis" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/isBopis" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="registeredUserPct" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/registeredUserPct" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="PCT-BOPISOrders" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/PCT-BOPISOrders" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="PCT-BOPIS-MIXED" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/PCT-BOPIS-MIXED" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+            
+            
+            </PropSets>
+          
+          
+          </BeforePlay>
+        
+        
+        </Clip>
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>clip</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>4</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="9763" internalID="0" name="SC010.RegisteredUserCheckout v1.1_Oct16_NonBOPIS" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM" type="messageclip" />
+    </References>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="SC010.RegisteredUserCheckout v0.03_BOPIS" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation//Checkout" parentType="clipelement" uid="4e4c4d9d-18b8-49f3-8522-460d93b00f4b">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        <Clip xmlns="http://www.soasta.com/services/repository">
+          
+          
+          <ClipRef internalID="0" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          <Options failure-action="fail" mergeTargets="false" useParentDynamicResourceCache="false" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          <BeforePlay xmlns="http://www.soasta.com/services/repository">
+            
+            
+            <PropSets xmlns="http://www.soasta.com/services/repository">
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="BOPIS_StoreId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/BOPIS_StoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="storeId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/storeId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="TestURL" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/testUrl" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="State" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/state" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="zipCode" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/postalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpCity" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpCity" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpStateName" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpState" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpStoreNum" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpStoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpZipCodeNum" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpPostalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpZoneId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpZoneNum" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="catalogId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/cataId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="testType" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/testType" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="isBopis" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/isBopis" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="PCT-BOPIS-MIXED" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/PCT-BOPIS-MIXED" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="PCT-BOPISOrders" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/PCT-BOPISOrders" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="registeredUserPct" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/registeredUserPct" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+            
+            
+            </PropSets>
+          
+          
+          </BeforePlay>
+        
+        
+        </Clip>
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>clip</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>5</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="9766" internalID="0" name="SC010.RegisteredUserCheckout v1.1_Oct16_BOPIS" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM" type="messageclip" />
+    </References>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="SC010.RegisteredUserCheckout v1.1_Oct16_Mixed" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation//Checkout" parentType="clipelement" uid="853e9962-a032-41ec-a57a-693d5014c735">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        <Clip xmlns="http://www.soasta.com/services/repository">
+          
+          
+          <ClipRef internalID="0" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          <Options failure-action="fail" mergeTargets="false" useParentDynamicResourceCache="false" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          <BeforePlay xmlns="http://www.soasta.com/services/repository">
+            
+            
+            <PropSets xmlns="http://www.soasta.com/services/repository">
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="BOPIS_StoreId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/BOPIS_StoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="storeId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/storeId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="State" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/state" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="zipCode" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/postalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpCity" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpCity" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpStateName" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpState" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpStoreNum" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpStoreId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpZipCodeNum" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpPostalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="lpZoneId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/lpZoneNum" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="testType" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/testType" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="isBopis" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/isBopis" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="registeredUserPct" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/registeredUserPct" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="PCT-BOPISOrders" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/PCT-BOPISOrders" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="PCT-BOPIS-MIXED" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/PCT-BOPIS-MIXED" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                <Ref path="TestURL" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  <Ref path="/testUrl" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                </Src>
+              
+              
+              </PropSet>
+            
+            
+            </PropSets>
+          
+          
+          </BeforePlay>
+        
+        
+        </Clip>
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>clip</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>6</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="9767" internalID="0" name="SC010.RegisteredUserCheckout v1.1_Oct16_Mixed" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM" type="messageclip" />
+    </References>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="SC007.Static v0.09" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation" parentType="messageclip" uid="ec177d22-54c2-4b52-9631-bfe428e7a744">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        
+        
+        
+        <Clip xmlns="http://www.soasta.com/services/repository">
+          
+          
+          
+          
+          
+          <ClipRef internalID="0" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          
+          
+          
+          <Options failure-action="fail" mergeTargets="true" useParentDynamicResourceCache="true" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          
+          
+          
+          <BeforePlay xmlns="http://www.soasta.com/services/repository">
+            
+            
+            
+            
+            
+            <PropSets xmlns="http://www.soasta.com/services/repository">
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                <Ref path="isBopis" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/isBopis" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              </PropSet>
+            
+            
+            
+            
+            
+            </PropSets>
+          
+          
+          
+          
+          
+          </BeforePlay>
+        
+        
+        
+        
+        
+        </Clip>
+      
+      
+      
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>clip</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>6</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="9768" internalID="0" name="SC007.Static v1.1_Oct16" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM" type="messageclip" />
+    </References>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="SC009.StoreLocator v0.03" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation" parentType="messageclip" uid="72d96968-84e1-47fc-b88a-a588d5b436ec">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        
+        
+        
+        
+        
+        <Clip xmlns="http://www.soasta.com/services/repository">
+          
+          
+          
+          
+          
+          
+          
+          <ClipRef internalID="0" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          
+          
+          
+          
+          
+          <Options failure-action="fail" mergeTargets="true" useParentDynamicResourceCache="true" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          
+          
+          
+          
+          
+          <BeforePlay xmlns="http://www.soasta.com/services/repository">
+            
+            
+            
+            
+            
+            
+            
+            <PropSets xmlns="http://www.soasta.com/services/repository">
+              
+              
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                
+                
+                <Ref path="inState" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/state" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                
+                
+                <Ref path="inZip" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/postalCode" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                
+                
+                <Ref path="inCity" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/city" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                
+                
+                <Ref path="inStoreId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/storeId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                
+                
+                <Ref path="inCataId" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/cataId" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              
+              
+              </PropSet>
+            
+            
+            
+            
+            
+            
+            
+            </PropSets>
+          
+          
+          
+          
+          
+          
+          
+          </BeforePlay>
+        
+        
+        
+        
+        
+        
+        
+        </Clip>
+      
+      
+      
+      
+      
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>clip</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>7</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="9769" internalID="0" name="SC009.StoreLocator v1.1_Oct16" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM" type="messageclip" />
+    </References>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="SC008.User v1.1_Oct16" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation" parentType="messageclip" uid="31601bb8-1ea8-4635-9fb8-451c49c1d11b">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        
+        
+        
+        
+        
+        <Clip xmlns="http://www.soasta.com/services/repository">
+          
+          
+          
+          
+          
+          
+          
+          <ClipRef internalID="0" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          
+          
+          
+          
+          
+          <Options failure-action="fail" mergeTargets="true" useParentDynamicResourceCache="true" xmlns="http://www.soasta.com/services/repository" />
+          
+          
+          
+          
+          
+          
+          
+          <BeforePlay xmlns="http://www.soasta.com/services/repository">
+            
+            
+            
+            
+            
+            
+            
+            <PropSets xmlns="http://www.soasta.com/services/repository">
+              
+              
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                
+                
+                <Ref path="TestURL" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/testUrl" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              
+              
+              </PropSet>
+              
+              
+              
+              
+              
+              
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                
+                
+                
+                <Ref path="testType" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <Ref path="/testType" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                
+                
+                
+                </Src>
+              
+              
+              
+              
+              
+              
+              
+              </PropSet>
+            
+            
+            
+            
+            
+            
+            
+            </PropSets>
+          
+          
+          
+          
+          
+          
+          
+          </BeforePlay>
+        
+        
+        
+        
+        
+        
+        
+        </Clip>
+      
+      
+      
+      
+      
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>clip</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>8</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="9770" internalID="0" name="SC008.User v1.1_Oct16" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM" type="messageclip" />
+    </References>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="SC011.CurrentAdd_Jan17" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation" parentType="messageclip" uid="d0cda7a9-86be-4e40-b0f0-c7397ba6af8b">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        <Clip xmlns="http://www.soasta.com/services/repository">
+          
+          <ClipRef internalID="0" xmlns="http://www.soasta.com/services/repository" />
+          
+          <Options failure-action="fail" mergeTargets="true" useParentDynamicResourceCache="true" xmlns="http://www.soasta.com/services/repository" />
+          
+          <BeforePlay xmlns="http://www.soasta.com/services/repository">
+            
+            <PropSets xmlns="http://www.soasta.com/services/repository">
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="TestType" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="/testType" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="TestURL" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="/testUrl" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+            
+            </PropSets>
+          
+          </BeforePlay>
+        
+        </Clip>
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>clip</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>9</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="11102" internalID="0" name="SC011.CurrentAd_Jan17" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM" type="messageclip" />
+    </References>
+  </Object>
+  <Object type="clipelement" schemaVersion="9481" name="SC012.OrderStatus_Jan17" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM/S01.OnlineGuest v1.1_Oct16-Validation" parentType="messageclip" uid="71711a64-299c-4f93-9bfe-0a603792f78f">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        <Clip xmlns="http://www.soasta.com/services/repository">
+          
+          <ClipRef internalID="0" xmlns="http://www.soasta.com/services/repository" />
+          
+          <Options failure-action="fail" mergeTargets="true" useParentDynamicResourceCache="true" xmlns="http://www.soasta.com/services/repository" />
+          
+          <BeforePlay xmlns="http://www.soasta.com/services/repository">
+            
+            <PropSets xmlns="http://www.soasta.com/services/repository">
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="TestType" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="/testType" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+              
+              <PropSet xmlns="http://www.soasta.com/services/repository">
+                
+                <Ref path="TestURL" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <Src xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="/testUrl" pathType="parent-clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                </Src>
+              
+              </PropSet>
+            
+            </PropSets>
+          
+          </BeforePlay>
+        
+        </Clip>
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>clip</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>10</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="10910" internalID="0" name="SC012.OrderStatus_Jan17" path="/QA, Performance, and Production environments/Clips for Perf and prod env/FINAL - 2016 WLM" type="messageclip" />
+    </References>
+  </Object>
+</rp:ObjectSet>

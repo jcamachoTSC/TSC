@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="folder" schemaVersion="9481" VCSUid="f9416b84884e7b0127bf2096effcb494" name="Clips for Perf and prod env" path="/QA, Performance, and Production environments">
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>
